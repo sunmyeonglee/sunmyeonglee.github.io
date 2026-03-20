@@ -1,15 +1,18 @@
 "use client";
 
-import { GithubLogo, LinkedinLogo } from "@phosphor-icons/react";
+import {
+  LinkedinLogoIcon,
+  GithubLogoIcon,
+  FolderOpenIcon,
+  EnvelopeSimpleIcon,
+} from "@phosphor-icons/react";
 
 export default function Page() {
   return (
     <main className="max-w-xl mx-auto px-6 py-20 space-y-6">
-      <p className="text-lg leading-relaxed text-muted">
-        <span className="text-foreground">
-          Sunmyeong Lee is a curious AI UXer who bridges design, AI, and
-          engineering.
-        </span>{" "}
+      <div className="text-sm sm:text-lg leading-relaxed text-muted">
+        <h1 className="inline font-normal text-foreground">Sunmyeong Lee</h1>
+        {" "}is a curious AI UXer who bridges design, AI, and engineering.{" "}
         She is studying B.A.S in{" "}
         <a
           href="https://creative.sogang.ac.kr/"
@@ -30,8 +33,17 @@ export default function Page() {
           KAIST DxD Lab
         </a>{" "}
         under the advice of Dr. Hwajung Hong.
-      </p>
+      </div>
       <div className="flex gap-3">
+        <a
+          href="mailto:sunnie@sogang.ac.kr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-muted hover:text-foreground transition-colors duration-300"
+          aria-label="Mail"
+        >
+          <EnvelopeSimpleIcon size={24} />
+        </a>
         <a
           href="https://linkedin.com/in/sunmyeonglee"
           target="_blank"
@@ -39,7 +51,7 @@ export default function Page() {
           className="text-muted hover:text-foreground transition-colors duration-300"
           aria-label="LinkedIn"
         >
-          <LinkedinLogo size={24} />
+          <LinkedinLogoIcon size={24} />
         </a>
         <a
           href="https://github.com/sunmyeonglee"
@@ -48,7 +60,16 @@ export default function Page() {
           className="text-muted hover:text-foreground transition-colors duration-300"
           aria-label="GitHub"
         >
-          <GithubLogo size={24} />
+          <GithubLogoIcon size={24} />
+        </a>
+        <a
+          href="https://www.notion.so/sunmyeonglee/231d5dc81f6680ab8a54d9d64130af77?v=231d5dc81f6680f1827b000c44391519&source=copy_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-muted hover:text-foreground transition-colors duration-300"
+          aria-label="FolderOpen"
+        >
+          <FolderOpenIcon size={24} />
         </a>
       </div>
     </main>

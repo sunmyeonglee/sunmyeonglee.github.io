@@ -25,6 +25,10 @@ body {
   font-family: var(--font-work-sans), system-ui, sans-serif;
 }
 
+main {
+  contain: paint;
+}
+
 @layer base {
   ::selection {
     background: #111111;
