@@ -32,7 +32,16 @@ export default function Page() {
         >
           KAIST DxD Lab
         </a>
-        , advised by Dr. Hwajung Hong.
+        , advised by{" "}
+        <a
+          href="https://galaxytourist.notion.site/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-foreground active:text-foreground transition-colors duration-300"
+        >
+          Prof. Hwajung Hong
+        </a>
+        .
       </div>
       <div className="flex gap-3">
         <a
