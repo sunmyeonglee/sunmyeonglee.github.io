@@ -11,9 +11,9 @@ export default function Page() {
   return (
     <main className="max-w-xl mx-auto px-6 py-20 space-y-6">
       <div className="text-sm sm:text-lg leading-relaxed text-muted">
-        <h1 className="inline font-normal text-foreground">Sunmyeong Lee</h1>
-        {" "}is a curious AI UXer who bridges design, AI, and engineering.{" "}
-        She is studying B.A.S in{" "}
+        <h1 className="inline font-normal text-foreground">Sunmyeong Lee</h1> is
+        a curious AI UXer who bridges design, AI, and engineering. She is
+        studying{" "}
         <a
           href="https://creative.sogang.ac.kr/"
           target="_blank"
@@ -22,8 +22,8 @@ export default function Page() {
         >
           Art & Technology
         </a>{" "}
-        and B.S in Artificial Intelligence at Sogang University, and is
-        currently working as an undergraduate research assistant at{" "}
+        and Artificial Intelligence at Sogang University, and is currently
+        working as an undergraduate research assistant at{" "}
         <a
           href="https://dxd-lab.github.io/"
           target="_blank"
@@ -31,8 +31,8 @@ export default function Page() {
           className="underline underline-offset-2 hover:text-foreground active:text-foreground transition-colors duration-300"
         >
           KAIST DxD Lab
-        </a>{" "}
-        under the advice of Dr. Hwajung Hong.
+        </a>
+        , advised by Dr. Hwajung Hong.
       </div>
       <div className="flex gap-3">
         <a
