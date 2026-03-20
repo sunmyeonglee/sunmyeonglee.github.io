@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: baseUrl,
   },
   verification: {
-    google: "C8YjSxHJMlZobSNUIDvpgXSD3UU6srxLKeM23LXHSPs",
+    google: "LM-7sMIofREuldblj72fqP5yeyyf9ZYQEfJlWTcxf7U",
   },
   openGraph: {
     title: "Sunmyeong Lee",
