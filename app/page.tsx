@@ -18,7 +18,7 @@ export default function Page() {
           href="https://creative.sogang.ac.kr/"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline underline-offset-2 hover:text-foreground transition-colors duration-300"
+          className="underline underline-offset-2 hover:text-foreground active:text-foreground transition-colors duration-300"
         >
           Art & Technology
         </a>{" "}
@@ -28,7 +28,7 @@ export default function Page() {
           href="https://dxd-lab.github.io/"
           target="_blank"
           rel="noopener noreferrer"
-          className="underline underline-offset-2 hover:text-foreground transition-colors duration-300"
+          className="underline underline-offset-2 hover:text-foreground active:text-foreground transition-colors duration-300"
         >
           KAIST DxD Lab
         </a>{" "}
@@ -39,7 +39,7 @@ export default function Page() {
           href="mailto:sunnie@sogang.ac.kr"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted hover:text-foreground transition-colors duration-300"
+          className="text-muted hover:text-foreground active:text-foreground transition-colors duration-300"
           aria-label="Mail"
         >
           <EnvelopeSimpleIcon size={24} />
@@ -48,7 +48,7 @@ export default function Page() {
           href="https://linkedin.com/in/sunmyeonglee"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted hover:text-foreground transition-colors duration-300"
+          className="text-muted hover:text-foreground active:text-foreground transition-colors duration-300"
           aria-label="LinkedIn"
         >
           <LinkedinLogoIcon size={24} />
@@ -57,7 +57,7 @@ export default function Page() {
           href="https://github.com/sunmyeonglee"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted hover:text-foreground transition-colors duration-300"
+          className="text-muted hover:text-foreground active:text-foreground transition-colors duration-300"
           aria-label="GitHub"
         >
           <GithubLogoIcon size={24} />
@@ -66,7 +66,7 @@ export default function Page() {
           href="https://www.notion.so/sunmyeonglee/231d5dc81f6680ab8a54d9d64130af77?v=231d5dc81f6680f1827b000c44391519&source=copy_link"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted hover:text-foreground transition-colors duration-300"
+          className="text-muted hover:text-foreground active:text-foreground transition-colors duration-300"
           aria-label="FolderOpen"
         >
           <FolderOpenIcon size={24} />
