@@ -6,6 +6,7 @@ const workSans = Work_Sans({
   variable: "--font-work-sans",
   subsets: ["latin"],
   display: "block",
+  adjustFontFallback: true,
 });
 
 const baseUrl = "https://sunmyeonglee.github.io";
