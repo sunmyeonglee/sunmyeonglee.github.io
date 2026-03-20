@@ -5,6 +5,7 @@ import "./globals.css";
 const workSans = Work_Sans({
   variable: "--font-work-sans",
   subsets: ["latin"],
+  display: "block",
 });
 
 const baseUrl = "https://sunmyeonglee.github.io";
@@ -63,7 +64,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={workSans.variable}>
-      <body suppressHydrationWarning>
+      <body suppressHydrationWarning style={{ opacity: 0 }}>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.fonts.ready.then(function(){document.body.style.opacity='1'})`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
